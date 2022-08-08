@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
+  background-color: #fdefd6;
+  line-height: 1.5;
+  
+}
+img {
+    width: 100%;
+  }
+  a {
+    text-decoration: none;
+    color: #45403c;
+  
+  }
+  
+  
+  header {
+    width: 100%;
+    padding:  25px 100px ;
+    margin-bottom: 30px;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fcdab1;
+    color: #45403c;
+  
+  }
+
+  header>div {
+    display: flex;
+    gap: 20px;
+    align-items:center;
+
+    
+  }
+    
+  header>div>img {
+    width: 150px;
+    height: fit-content;
+  }
+  
+main {
+    align-content: center;
+}
+
+#form{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 18px 0 ;
+
+}
+
+label{
+    padding: 12px 0;
+    display: inline-block;
+  
+}
+
+input[type=submit] {
+    background-color: #f68233;
+    color: white;
+    margin: 10px 0px 0px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+input[type=text], select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+
+
+
+
+#table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ td,th {
+    border: 1px solid #858585;
+    padding: 8px;
+  }
+  th {
+    text-align: center;
+    background-color: #f68233;
+    color: white;
+    font-weight: 500;
+  }
+  td{
+    text-align: center;
+    color: #45403c;
+    font-weight: 600;
+
+  }
+
+  footer{
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center;
+    background-color: #393939;
+    color:#ECEFD8;
+  }
+  
+    
