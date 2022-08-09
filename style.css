@@ -42,6 +42,10 @@ img {
 
     
   }
+  
+nav>a{
+padding: 20px;
+}
     
   header>div>img {
     width: 150px;
@@ -115,6 +119,17 @@ input[type=text], select {
     text-align: center;
     background-color: #393939;
     color:#ECEFD8;
+    font-size: large;
+  }
+  footer>div{
+    padding-bottom: 10px;
+  }
+
+  a>img{
+    padding: 0 10px;
+    width: 5%;
+    height: fit-content;
+
   }
   
     
