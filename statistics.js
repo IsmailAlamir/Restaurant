@@ -3,6 +3,12 @@ function getData(){
     let ret =localStorage.getItem("food");
      arrayData =JSON.parse(ret);
 
+  if  (arrayData!=null){   
+for (i=0;i<arrayData.length; i++){
+    render(arrayData[i]);
+}
+  }
+
 }
 
 var tEl= document.getElementById("table");
@@ -29,8 +35,4 @@ function render(obj){
 }
 
 getData();
-
-for (i=0;i<arrayData.length; i++){
-    render(arrayData[i]);
-}
 

@@ -1,8 +1,10 @@
 var counter = 0;
 const allFood = [];
+let form = document.getElementById("form");
+
 
 function food (foodName,type,price){
-    this.id=++counter;
+    this.id=`${++counter}`.padStart(4, '0');
     this.foodName=foodName;
     this.type=type;
     this.price=price;
@@ -34,10 +36,7 @@ function food (foodName,type,price){
 
 // }
 
-let form = document.getElementById("form");
 form.addEventListener("submit",handleSubmit);
-
-
 function handleSubmit (event){
     event.preventDefault();
 
@@ -52,6 +51,11 @@ function handleSubmit (event){
     }
 
     function saveData(data){
+        
+            
        let stringObj= JSON.stringify(data);
        localStorage.setItem('food',stringObj);
     }
+
+
+
